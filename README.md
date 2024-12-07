@@ -100,7 +100,7 @@ ZSJLTOI 7 种方块各 12 张，外加单元方块 6 张。
 
 可以选择削弱一些满足其它特定条件的旋转消除，使其产生的攻击当量与非旋转消除相等。该次消行记作 Mini 消除。
 
-可能会出现普通消除行数 >4、旋转消除行数 >3 的情况，这种情况下，超出的行数不提供攻击，只提供与多出行数相等的防御值，防御值优先于攻击生效且不能视作攻击当量。
+可能会出现普通消除行数 >4、旋转消除行数 >3 的情况，这种情况下，超出的行数不提供攻击，只提供与多出行数相等的抵挡值，防御时，抵挡值优先于攻击生效，与攻击当量 1:1 抵消，且不能视作攻击当量；攻击时抵挡值立刻失效。
 
 \-
 
@@ -232,7 +232,7 @@ Line(s) | Non-spin attack | Spin attack
 
 Some spin clears that meet other specific conditions can be weakened, so that the attack equivalent they produce is equal to that of non-spin clears. These clears is counted as a Mini clear.
 
-There may be a situation when a non-spin clear with >4 lines or a spin clear with >3 lines. In this case, the extra lines will not provide attacks, but only add defense values ​​equal to the number of extra lines. The defense value takes precedence over the attack and cannot be regarded as an attack equivalent.
+There may be a situation when a non-spin clear with >4 lines or a spin clear with >3 lines. In this case, the extra lines will not provide attacks, but only add offset values ​​equal to the number of extra lines. When defending, the offset value takes precedence over the attack, offsets the attack equivalent at a 1:1 ratio, and cannot be considered as an attack equivalent; when attacking, the offset value immediately becomes invalid.
 
 \-
 
