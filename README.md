@@ -13,6 +13,7 @@
 以相同方式共享 — 如果您重制、转换或者基于本作品进行创作，您必须基于**与原先许可协议相同的许可协议**发布您贡献的作品。  
 不得有附加限制 — 不得利用**法律术语**或者**技术措施**限制其他人做许可协议允许的事情。
 
+This article is provided under CC-BY-SA-4.0 license.
 You are free to:
 
 Share — copy and redistribute the material in any medium or format for any purpose, even commercially.  
