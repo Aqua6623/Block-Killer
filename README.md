@@ -175,7 +175,7 @@ This game is suitable for 3~6 people.
 
 ![Block cards](pic/card-block.png)
 
-* Garbage card \*90
+* Garbage card \*111
 
 See below.
 
