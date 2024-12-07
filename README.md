@@ -183,7 +183,7 @@ See below.
 
 * Several small minoes
 
-For auxiliary operations, includes tetrominoes and several unit blocks.
+For auxiliary operations, includes tetrominoes and several unit cells.
 
 ## Game rule
 
