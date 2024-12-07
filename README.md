@@ -9,9 +9,21 @@
 
 但须遵守下列条件：
 
-署名 — 您必须给出**适当的署名**，提供指向本许可协议的链接，同时标明是否（对原始作品）作了修改。您可以用任何合理的方式来署名，但是不得以任何方式暗示许可人为您或您的使用背书。
-以相同方式共享 — 如果您重制、转换或者基于本作品进行创作，您必须基于**与原先许可协议相同的许可协议**发布您贡献的作品。
+署名 — 您必须给出**适当的署名**，提供指向本许可协议的链接，同时标明是否（对原始作品）作了修改。您可以用任何合理的方式来署名，但是不得以任何方式暗示许可人为您或您的使用背书。  
+以相同方式共享 — 如果您重制、转换或者基于本作品进行创作，您必须基于**与原先许可协议相同的许可协议**发布您贡献的作品。  
 不得有附加限制 — 不得利用**法律术语**或者**技术措施**限制其他人做许可协议允许的事情。
+
+You are free to:
+
+Share — copy and redistribute the material in any medium or format for any purpose, even commercially.  
+Adapt — remix, transform, and build upon the material for any purpose, even commercially.  
+The licensor cannot revoke these freedoms as long as you follow the license terms.  
+
+Under the following terms:
+
+Attribution — You must give appropriate credit , provide a link to the license, and indicate if changes were made . You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.  
+ShareAlike — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.  
+No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
 
 ## 简介
 
