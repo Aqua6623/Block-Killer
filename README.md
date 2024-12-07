@@ -269,7 +269,7 @@ The last player who is not out wins.
 
 ### Show 'em No Mercy
 
-Basic attack is amplified. A non-spin clear with >4 lines or a spin clear with >3 lines will directly participate in the attack calculation and will not provide defense value.
+Basic attack is amplified. A non-spin clear with >4 lines or a spin clear with >3 lines will directly participate in the attack calculation and will not provide offset value.
 
 Line(s) | Non-spin attack | Spin attack
 :---:|:---:|:---:
