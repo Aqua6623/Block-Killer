@@ -27,6 +27,10 @@ Attribution — You must give appropriate credit , provide a link to the license
 ShareAlike — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.  
 No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
 
+
+### 本文有中文、英文两个版本。英文版见 (#English Ver.)[此]。
+### For English version, see it (#English Ver.)[here].
+
 ## 简介
 
 这是一个以方块游戏为主要玩法的桌游，以现代方块对战为蓝本。
