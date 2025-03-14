@@ -1,3 +1,5 @@
+![](pic/header.png)
+
 # Block-Killer 「方块杀」
 
 本文在 CC-BY-SA-4.0 许可协议下提供。
