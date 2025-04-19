@@ -207,7 +207,7 @@ You can take turns to play cards in a clockwise or counterclockwise direction, j
 
 ### Draw and play cards
 
-When it is a player's turn, the player needs to draw 1 block card and 1 garbage card. If there are >=10 garbage cards in hand and the number of block cards in hand is <5, you can change to draw 2 block cards.
+When it is a player's turn, the player needs to draw 1 block card and 1 garbage card. If there are >=10 garbage cards in hand, you can change to draw 2 block cards.
 
 The number of block cards in the hand must be <6 after the player's turn. In other words, if there are 6 block cards in hand after drawing cards, you must play at least 1 of your cards.
 
