@@ -95,7 +95,7 @@ ZSJLTOI 7 种方块各 12 张，外加单元方块 6 张。
 
 玩家的某一次消除分为两种，非旋转消除和旋转消除。旋转消除要求玩家消行的方块落定前最后一步是旋转且满足特定条件。
 
-四行及以上的消除和旋转消除记作特殊消除。如果打出特殊消除且上一次消除也是特殊消除，攻击额外 +1。该次消行记作 Back-to-back 消除。
+四行及以上的消除和旋转消除记作特殊消除。如果打出特殊消除且上一次消除也是特殊消除，攻击额外 +1（即 B2B）。
 
 行数 | 非旋转消除攻击 | 旋转消除攻击
 :---:|:---:|:---:
@@ -104,11 +104,13 @@ ZSJLTOI 7 种方块各 12 张，外加单元方块 6 张。
 3 | 2 | 6
 4 | 4 | -
 
-可以选择削弱一些满足其它特定条件的旋转消除，使其产生的攻击当量与非旋转消除相等。该次消行记作 Mini 消除。
+可以选择削弱一些满足其它特定条件的旋转消除，使其产生的攻击当量与非旋转消除相等（即 Mini）。
 
-可能会出现普通消除行数 >4、旋转消除行数 >3 的情况，这种情况下，超出的行数不提供攻击，只提供与多出行数相等的抵挡值，防御时，抵挡值优先于攻击生效，与攻击当量 1:1 抵消，且不能视作攻击当量；攻击时抵挡值立刻失效。
+可能会出现普通消除行数 >4、旋转消除行数 >3 的情况，这种情况下，超出的行数不提供攻击，只提供与多出行数相等的抵挡值，防御时，抵挡值优先于攻击生效，与攻击当量 1:1 抵消，且不能视作攻击当量；攻击时抵挡值无效。
 
-\-
+
+
+
 
 玩家也可以通过连击——连续的摆块均完成消行——增加攻击。连击数在消行开始时从 1 开始计数，方块未消行则清零。
 
@@ -116,12 +118,13 @@ ZSJLTOI 7 种方块各 12 张，外加单元方块 6 张。
 
 连击数 | 攻击加成
 :---:|:---:
-1 | \+0 
-2 | \+1 
-3 | \+1 
-4 | \+1 
-5 | \+2 
-6 | \+2 
+1 | +0 
+2 | +1 
+3 | +1 
+4 | +1 
+5 | +2 
+6 | +2 
+7 | +2
 
 #### 防御
 
@@ -156,12 +159,13 @@ ZSJLTOI 7 种方块各 12 张，外加单元方块 6 张。
 
 连击数 | 攻击加成
 :---:|:---:
-1 | \+0 
-2 | \+1 
-3 | \+2 
-4 | \+2 
-5 | \+3 
-6 | \+3 
+1 | +0 
+2 | +1 
+3 | +2 
+4 | +2 
+5 | +3 
+6 | +3
+7 | +4
 
 # English
 
@@ -209,7 +213,7 @@ The number of block cards in the hand must be <6 after the player's turn. In oth
 
 In other cases, the player can choose not to play a card and skip the turn.
 
-#### How to play a card (How to attack)
+#### How to play cards (How to attack)
 
 Players need to follow the steps below to play cards.
 
@@ -219,11 +223,11 @@ Players need to follow the steps below to play cards.
 
 3. Players can place the block cards in their hands in any order, according to the logic of a block-stacker game. When a line is filled, it will be cleared. The blocks are only allowed to move left and right and downward, and rotate, and cannot be mirrored. A block card can only be used once.
 
-4. When a certain block caused a clearing, the **attack equivalent** is calculated according to a certain logic. If there are two lines of chessboard garbage in hand, the two lines of chessboard garbage can be merged into a row of solid garbage, which is cleared when the first piece is placed.
+4. When a certain block caused a clearing, the **attack value** is calculated according to a certain logic. If there are two lines of chessboard garbage in hand, the two lines of chessboard garbage can be merged into a row of solid garbage, which is cleared when the first piece is placed.
 
-5. If confirmed that all planned blocks are placed, the uncleared garbage row will return to the player, and all used block cards and cleared garbage cards will go to the discard pile. All attack equivalents generated during the card-playing process are sent to the designated player.
+5. If confirmed that all planned blocks are placed, the uncleared garbage row will return to the player, and all used block cards and cleared garbage cards will go to the discard pile. All attack values generated during the card-playing process are sent to the designated player.
 
-#### Attack equivalent calculation
+#### Attack value calculation
 
 There are two types of clears: non-spin clear and spin clear. spin clear requires that the last step before clearing is to rotate and meet specific conditions.
 
@@ -236,11 +240,13 @@ Line(s) | Non-spin attack | Spin attack
 3 | 2 | 6
 4 | 4 | -
 
-Some spin clears that meet other specific conditions can be weakened, so that the attack equivalent they produce is equal to that of non-spin clears. These clears is counted as a Mini clear.
+Some spin clears that meet other specific conditions can be weakened, so that the attack value they produce is equal to that of non-spin clears. These clears is counted as a Mini clear.
 
-There may be a situation when a non-spin clear with >4 lines or a spin clear with >3 lines. In this case, the extra lines will not provide attacks, but only add offset values ​​equal to the number of extra lines. When defending, the offset value takes precedence over the attack, offsets the attack equivalent at a 1:1 ratio, and cannot be considered as an attack equivalent; when attacking, the offset value immediately becomes invalid.
+There may be a situation when a non-spin clear with >4 lines or a spin clear with >3 lines. In this case, the extra lines will not provide attacks, but only add offset values ​​equal to the number of extra lines. When defending, the offset value takes precedence over the attack, offsets the attack value at a 1:1 ratio, and cannot be considered as an attack value; when attacking, the offset value immediately becomes invalid.
 
-\-
+
+
+
 
 Players can also increase their attack by performing combos - placing blocks to clear lines continuously. The combo count starts at 1 when a line is cleared, and resets to 0 if the blocks do not clear any line.
 
@@ -254,14 +260,15 @@ Combo | Extra attack
 4 | \+1 
 5 | \+2 
 6 | \+2 
+7 | +2
 
 #### Defense
 
-The defense method is the same as the attack method, and the generated **defense equivalent** is offset by the attack equivalent at a ratio of 1:1.
+The defense method is the same as the attack method, and the generated **defense equivalent** is offset by the attack value at a ratio of 1:1.
 
 If the defender offsets all the garbage and has a remaining defense equivalent, the remaining defense equivalent is divided by 2 and rounded up and then sent back to the attacker. The attacker cannot defend again and must draw the corresponding number of garbage cards.
 
-If the defender fails to offset all attacks, the defender must draw the remaining number of garbage cards equivalent to the attack equivalent.
+If the defender fails to offset all attacks, the defender must draw the remaining number of garbage cards equivalent to the attack value.
 
 After the round of cards is played, the player after the attacker continues to act.
 
@@ -294,3 +301,4 @@ Combo | Extra attack
 4 | \+2 
 5 | \+3 
 6 | \+3 
+7 | +4
